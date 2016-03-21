@@ -1,0 +1,1 @@
+<?php/* Menu Registration */	if ( function_exists( 'register_nav_menus' ) ) :	register_nav_menus(array(		'mainnav' => 'Main Navigation',		'legalnav' => 'Legal Navigation',	));endif;?>

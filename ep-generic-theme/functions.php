@@ -1,0 +1,1 @@
+<?php/* Load Theme-Specific Scripts, Widgets, and Features */foreach (glob(get_template_directory() . '/includes/*.php') as $includefile) :    require_once $includefile;endforeach;/* Hide 3.0 Admin Bar */if ( function_exists( 'show_admin_bar' ) ) :	show_admin_bar(false);endif;?>

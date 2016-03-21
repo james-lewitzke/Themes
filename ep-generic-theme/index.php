@@ -1,0 +1,1 @@
+<?php include(locate_template('vars.php'));get_header(); get_template_part('section-titles');get_template_part('aside-sidebars-left');get_template_part('loop');   get_footer();?> 
