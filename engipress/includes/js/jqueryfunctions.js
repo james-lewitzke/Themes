@@ -1,0 +1,1 @@
+$ = jQuery;$(document).ready(function() {	/* Meta Content Class 	$('.metapage:nth-child(3n+2)').addClass('metapagemiddle');	/* Tab interface 	$('#content-single-blog').tabs(); */});

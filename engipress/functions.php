@@ -1,0 +1,1 @@
+<?php/* Load Theme-Specific Scripts, Widgets, and Features */foreach (glob(get_template_directory() . '/includes/*.php') as $includefile) :    require_once $includefile;endforeach;?>

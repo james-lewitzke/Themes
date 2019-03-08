@@ -1,0 +1,1 @@
+<?php /* Template Name: CPT - Blog */get_header(); if ( has_sidebar_left() ) :	get_template_part('aside-sidebars-left');	endif;get_template_part('loop'); if ( has_sidebar_right() ) :	get_template_part('aside-sidebars-right');	endif;  get_footer();?> 
